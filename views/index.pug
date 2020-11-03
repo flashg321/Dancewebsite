@@ -1,0 +1,59 @@
+doctype html
+html
+    head
+        title This is my Dance Website.
+        style
+            include ../static/style.css
+    body
+        //- h1 Your Dance Destination
+        //- p Welcome to Dance Paradise.
+
+        //-3 shuru
+        nav#navbar
+            ul
+                img(src="../static/img/card2.png")
+                |   HDA
+                li
+                     a(href="/") Home
+                li 
+                     a(href="/about") About
+                li 
+                    a(href="/services") Services
+                li 
+                    a(href="/classInfo") Class Info
+                li 
+                    a(href="/contactUs") Contact Us
+        section#introSection
+            |    Welcome to Ranish's Dance Academy
+        section#ourMission
+            h2   Welcome to our mission
+            .card
+                    .card-box
+                        .card-img
+                            img(src="../static/img/card1.png", alt="")
+                            p This is the best dance academy in the area.
+            .card
+                    .card-box
+                        .card-img
+                            img(src="../static/img/card2.png", alt="")
+                            p This is the best dance academy in the area.
+            .card
+                    .card-box
+                        .card-img
+                            img(src="../static/img/card3.png", alt="")
+                            p This is the best dance academy in the area.
+        section#sponsorSection
+            h2 Our sponsors
+            #sponsors
+                img(src="../static/img/apple.png", alt="")
+                img(src="../static/img/hp.png", alt="")
+                img(src="../static/img/skype.png", alt="")
+        footer#footer
+            |    Copyright © 2020 HemantDanceAcademy.com | All rights reserved!
+
+        //- 3 khatam
+
+            
+        
+        
+        include ../static/index.js

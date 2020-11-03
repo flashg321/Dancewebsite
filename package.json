@@ -1,0 +1,22 @@
+{
+  "name": "hemant-dance-academy",
+  "version": "1.0.0",
+  "description": "This is a site for a popular dance academy",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "your",
+    "dance",
+    "academy"
+  ],
+  "author": "hemant saini",
+  "license": "ISC"
+}

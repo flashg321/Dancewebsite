@@ -1,0 +1,148 @@
+/* 4 ka kaam shuru */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar {
+    background-color: rgb(77, 76, 76);
+    padding: 10px;
+
+
+}
+
+#navbar li {
+    list-style: none;
+}
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#navbar li a {
+    text-decoration: none;
+    margin: 17px;
+    font-size: 20px;
+    color: white;
+}
+#navbar li a:hover {
+    background-color: rgb(98, 97, 97);
+    color: rgb(235, 153, 153);
+}
+#introSection {
+   height: 741px; 
+   /* width: 100%;  */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(25 24 24);
+   font-family: 'Baloo Tammudu 2', cursive;
+   font-size: 64px;
+}
+#introSection::before {
+    background: url(../static/bg.jpg) no-repeat center center/cover;
+    content: "";
+    height: 741px;
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
+    z-index: -1;
+}
+#sponsorSection {
+    background-color: rgb(160, 113, 113);
+    height: 300px;
+    text-align: center;
+}
+#ourMission {
+    height: 361px;
+    background-color: rgb(255 255 255);
+    text-align: center;
+}
+#ourMission h2 {
+    font-size: 48px;
+}
+
+/* 4 khatam tutorial 75 khatam */
+
+/* //tut 76 ka kaam */
+.card {
+    border: 2px solid black;
+    border-radius: 18px;
+    height: 247px;
+    margin: 29px 16px;
+    display: inline-block;
+    width: 30%;
+}
+
+/* tut 76 ka kaam khatam.lagbhag saara lesson card designing p tha */
+
+/* tut77 ka kaam shuru */
+ul img {
+    width: 52px;
+    height: 23px;
+    border-radius: 50%;
+    filter: invert(1);
+
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 176px;
+    padding: 0 14px;
+}
+.card-img p {
+    font-size: 26px;
+}
+.card-img img {
+    padding-top: 22px;
+    height: inherit;
+}
+
+/* tut77 ends  */
+
+/* tut78 starts */
+
+#sponsorSection {
+    height: 416px;
+    background-color: rgb(243 236 236);
+    text-align: center;
+}
+#sponsorSection h2 {
+    font-size: 48px;
+}
+
+#sponsors {
+    height: 416px;
+}
+#sponsors img {
+    height: 278px;
+    margin: 0px 71px;
+    margin-top: 28px;
+}
+
+/* ab footer design */
+#footer {
+    display: flex;
+    background-color: black;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+/* tut 78 ends */
+
+/* tut79 starts */
+
+
+
+
+/* tut79 ends */
